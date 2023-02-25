@@ -13,6 +13,19 @@
             {
                 Console.WriteLine(ele);
             }
+
+
+            Console.WriteLine("------------------------------");
+            Console.WriteLine("Top element : "+stack.Peek());
+            Console.WriteLine("------------------------------");
+            stack.Pop();
+
+            foreach (int ele in stack)
+            {
+                Console.WriteLine(ele);
+            }
         }
+
+        
     }
 }
