@@ -15,6 +15,15 @@ namespace Day14StackAndQueue
             {
                 Console.WriteLine(ele);
             }
+
+
+            queue.Dequeue();
+            Console.WriteLine("After Deque: ");
+            foreach (int ele in queue)
+            {
+                Console.WriteLine(ele);
+            }
+
         }
 
         
