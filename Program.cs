@@ -4,7 +4,15 @@
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Day 14 --> Stacks and Queue");
+            Stack <int> stack  = new Stack<int>();
+            stack.Push(56);
+            stack.Push(30);
+            stack.Push(70);
+
+            foreach(int ele in stack)
+            {
+                Console.WriteLine(ele);
+            }
         }
     }
 }
